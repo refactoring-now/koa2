@@ -9,6 +9,7 @@
     "test": "test"
   },
   "scripts": {
+    "start": "node ./benchmarks/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

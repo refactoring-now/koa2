@@ -1,6 +1,13 @@
 # koa2
 简易版 类 koa 框架
 
+## 运行
+
+```sh
+git clone git@github.com:refactoring-now/koa2.git
+npm start
+```
+
 ## 具体特性
 
 - 使用 use 方法加载中间件
