@@ -21,5 +21,12 @@
   "bugs": {
     "url": "https://github.com/refactoring-now/koa2/issues"
   },
-  "homepage": "https://github.com/refactoring-now/koa2#readme"
+  "homepage": "https://github.com/refactoring-now/koa2#readme",
+  "dependencies": {
+    "cookies": "^0.7.3",
+    "delegates": "^1.0.0",
+    "http-assert": "^1.4.0",
+    "http-errors": "^1.7.2",
+    "statuses": "^1.5.0"
+  }
 }
