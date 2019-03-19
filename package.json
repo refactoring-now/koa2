@@ -9,6 +9,8 @@
     "test": "test"
   },
   "scripts": {
+    "lint:js": "eslint benchmarks lib test",
+    "lint:js:fix": "npm run lint:js -- --fix",
     "start": "node ./benchmarks/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -28,5 +30,11 @@
     "http-assert": "^1.4.0",
     "http-errors": "^1.7.2",
     "statuses": "^1.5.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.17.1",
+    "eslint-config-standard": "^7.0.1",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^2.1.1"
   }
 }
