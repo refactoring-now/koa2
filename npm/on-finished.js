@@ -42,6 +42,7 @@ var defer = typeof setImmediate === 'function'
  * @public
  */
 
+ //
 function onFinished (msg, listener) {
   if (isFinished(msg) !== false) {
     defer(listener, null, msg)
@@ -56,7 +57,7 @@ function onFinished (msg, listener) {
 
 /**
  * Determine if message is already finished.
- *
+ * 判断消息是否完成 socket 消息
  * @param {object} msg
  * @return {boolean}
  * @public
@@ -81,7 +82,7 @@ function isFinished (msg) {
 
 /**
  * Attach a finished listener to the message.
- *
+ * 给信息添加一个消息完成传递时的监听函数
  * @param {object} msg
  * @param {function} callback
  * @private

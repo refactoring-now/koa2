@@ -29,7 +29,8 @@
     "delegates": "^1.0.0",
     "http-assert": "^1.4.0",
     "http-errors": "^1.7.2",
-    "statuses": "^1.5.0"
+    "statuses": "^1.5.0",
+    "stream": "^0.0.2"
   },
   "devDependencies": {
     "eslint": "^3.17.1",
